@@ -1,9 +1,5 @@
 # Final Project
 
-## Comparative Analysis of DNN, CNN and LSTM Models for Multiclass Classification
-
-## Objective
-
 The objective of this project is to implement, train, evaluate, and compare four deep learning architectures for a multiclass classification problem:
 
 - Deep Neural Network (DNN)
@@ -36,7 +32,7 @@ name_surname_name_surname.zip/
 │   ├── training.py
 │   └── evaluation.py
 │
-├── lab3_2026.ipynb
+└── lab3_2026.ipynb
 ```
 
 
@@ -288,4 +284,3 @@ Discuss:
 - Are the same classes difficult for all architectures?
 - Does one architecture handle particular classes differently?
 - What characteristics of the observed data could explain these differences?
-
