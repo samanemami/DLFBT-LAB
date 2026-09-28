@@ -74,7 +74,7 @@ The repository contains two laboratory assignments and one final project:
 
 - [Lab 1](#lab-1)
 - [Lab 2](#lab-2)
-- [Final Project](#final-project)
+- [Final Project](#Final-project)
 
 ---
 
@@ -82,11 +82,11 @@ The repository contains two laboratory assignments and one final project:
 
 For each laboratory, submit **only the corresponding Python file**:
 
-| Lab           | File to Submit  |
-| ------------- | --------------- |
-| Lab 1         | `dlfbt_lab1.py` |
-| Lab 2         | `dlfbt_lab2.py` |
-| Final Project | `dlfbt_lab3.py` |
+| Lab           | File to Submit            |
+| ------------- | ------------------------- |
+| Lab 1         | `dlfbt_lab1.py`           |
+| Lab 2         | `dlfbt_lab2.py`           |
+| Final Project | `dlfbt_final_project.zip` |
 
 ### Submission Rules
 
@@ -112,7 +112,6 @@ Upload the requested file to the [course Moodle page](https://posgrado.uam.es/co
 | --------- | --------------------------- |
 | **Lab 1** | Friday, 2026-09-25 at 16:00 |
 | **Lab 2** | Friday, 2026-10-09 at 18:00 |
-
 
 ---
 
@@ -158,15 +157,15 @@ Use the notebook to run the exercises and verify that your implementation produc
 
 ## Lab 3 (Final Project)
 
-## Final Project 
+## Final Project
 
-The Final Project replaces Lab 3. 
+The Final Project replaces Lab 3.
 
-Follow the instructions provided in the **Final Project notebook and project description**. 
+Follow the instructions provided in the **Final Project notebook and project description**.
 
-Complete the project in pairs and submit the required files before the deadline. 
+Complete the project in pairs and submit the required files before the deadline.
 
-The Final Project is evaluated based on the submitted project only. 
+The Final Project is evaluated based on the submitted project only.
 
 **There is no exam for the Final Project.**
 
@@ -194,4 +193,4 @@ If you would like to contribute a fix or improvement, you may also **fork the re
 # Project Information
 
 **Version:** v2.0.0  
-**Last Update:** September 2026  
+**Last Update:** September 2026
