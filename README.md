@@ -111,7 +111,7 @@ Upload the requested file to the [course Moodle page](https://posgrado.uam.es/co
 | Lab       | Exam Date                   |
 | --------- | --------------------------- |
 | **Lab 1** | Friday, 2026-09-25 at 16:00 |
-| **Lab 2** | Friday, 2026-10-09 at 18:00 |
+| **Lab 2** | Friday, 2026-10-09 at 16:00 |
 
 ---
 
