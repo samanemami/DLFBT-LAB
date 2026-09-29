@@ -50,8 +50,6 @@ def load_phoneme():
     # TODO: load the CSV.
     # dataset = ...
 
-    # TODO: perform a shape / validity check.
-
     # TODO:
     # X = ...
     # y = ...
@@ -86,7 +84,6 @@ class DataSplit:
 def prepare_data(
     X,
     y,
-    *,
     test_size=0.20,
     val_size=0.20,
     normalize=True,
@@ -132,11 +129,9 @@ def prepare_data(
 
     # TODO: first split -> train+validation and test.
 
-    # TODO: compute the validation fraction relative to train+validation.
-
     # TODO: second split -> train and validation.
 
-    # TODO: optionally fit StandardScaler ONLY on X_train.
+    # TODO: optionally fit StandardScaler.
 
     # TODO: return DataSplit(...)
 
@@ -416,7 +411,6 @@ def optimizer_from_name(name, learning_rate=1e-3):
 def run_optimizer_experiment(
     split,
     optimizer_name,
-    *,
     epochs=150,
     batch_size=32,
     learning_rate=1e-3,
@@ -505,7 +499,7 @@ def compare_optimizers(
 
     TODO
     ----
-    A compact loop or list comprehension is sufficient.
+    A compact loop or list is sufficient.
     """
 
     # TODO: call run_optimizer_experiment once per optimizer name.

@@ -100,18 +100,18 @@ Upload the requested file to the [course Moodle page](https://posgrado.uam.es/co
 
 ### Due Dates
 
-| Lab               | Due Date                    |
-| ----------------- | --------------------------- |
-| **Lab 1**         | Friday, 2026-09-25 at 13:00 |
-| **Lab 2**         | Friday, 2026-10-09 at 13:00 |
-| **Final Project** | Friday, 2026-10-23 at 13:00 |
+| Lab               | Due Date                    | Status             |
+| ----------------- | --------------------------- | ------------------ |
+| **Lab 1**         | Friday, 2026-09-25 at 13:00 | ❌ Deadline passed |
+| **Lab 2**         | Friday, 2026-10-09 at 13:00 | ⏳ Not yet due     |
+| **Final Project** | Friday, 2026-10-23 at 13:00 | ⏳ Not yet due     |
 
 ### Exam Dates
 
-| Lab       | Exam Date                   |
-| --------- | --------------------------- |
-| **Lab 1** | Friday, 2026-09-25 at 16:00 |
-| **Lab 2** | Friday, 2026-10-09 at 16:00 |
+| Lab       | Exam Date                   | Status                               |
+| --------- | --------------------------- | ------------------------------------ |
+| **Lab 1** | Friday, 2026-09-25 at 16:00 | ✅ Done — grades published on Moodle |
+| **Lab 2** | Friday, 2026-10-09 at 16:00 | ⏳ Upcoming                          |
 
 ---
 
@@ -177,20 +177,9 @@ If you find an error, bug, broken test, missing dependency, or unclear instructi
 
 [Create a GitHub Issue](https://github.com/samanemami/DLFBT-LAB/issues)
 
-When reporting an issue, please include, when possible:
-
-- A short description of the problem
-- The laboratory where the problem appears
-- The complete error message
-- Your Python version
-- Your TensorFlow version, if relevant
-- Steps to reproduce the problem
-
-If you would like to contribute a fix or improvement, you may also **fork the repository** and submit a **Pull Request**.
-
 ---
 
 # Project Information
 
 **Version:** v2.0.0  
-**Last Update:** September 2026
+**Last Update:** September 29, 2026
