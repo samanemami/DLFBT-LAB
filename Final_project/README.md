@@ -7,18 +7,11 @@ The objective of this project is to implement, train, evaluate, and compare four
 - Long Short-Term Memory Network (LSTM)
 - Recurrent Neural Network (RNN)
 
-You already have the related code that generates a synthetic multivariate sequential dataset.
-
-**You are not required to implement the data generator.**
-
-Please start the project by with loading, understanding, visualizing, and modeling the generated dataset.
-
 The project should answer a central question:
 
 > How do DNN, CNN, LSTM, and RNN architectures differ in predictive performance, computational efficiency, training behavior, robustness, and model complexity when applied to the same multiclass sequential classification problem?
 
 Your conclusions must be based on your experimental evidence.
-
 
 # Required Project Structure
 
@@ -35,9 +28,7 @@ name_surname_name_surname.zip/
 └── lab3_2026.ipynb
 ```
 
-
 ## `src/models.py`
-
 
 You must implement the following three classes:
 
@@ -104,8 +95,6 @@ For example:
 - Per-class metrics
 - Model comparison
 
-
-
 ## `lab3_2026.ipynb`
 
 This notebook contains your experiments, visualizations, analysis, and discussion.
@@ -117,16 +106,13 @@ from src.models import (
     DNNClassifier,
     CNNClassifier,
     LSTMClassifier,
-    ...
+    RNNClassifier,
 )
 ```
 
 Do not implement the complete models inside the notebook
 
-
-# Fair Model Comparison
-
-You must attempt to make the experiments fair.
+# Model Comparison
 
 All models must use:
 
@@ -177,7 +163,6 @@ Generate a confusion matrix for every model.
 
 Explain the difference between macro and weighted metrics and why the distinction matters for this dataset.
 
-
 # Computational Performance
 
 Compare the computational requirements of the three models.
@@ -197,8 +182,7 @@ Where possible, you may investigate:
 
 Include the hardware used for your experiments.
 
-
-# Training 
+# Training
 
 For each architecture, visualize:
 
@@ -232,7 +216,6 @@ Use these figures to discuss:
 - Training stability
 - Generalization
 
-
 # Random Seeds
 
 A single training run is not sufficient to determine whether a result is stable.
@@ -252,8 +235,8 @@ Model    Macro F1
 DNN      mean ± std
 CNN      mean ± std
 LSTM     mean ± std
+RNN      mean ± std
 ```
-
 
 # Additional Experiment
 
@@ -272,12 +255,11 @@ Choose one important model/training factor, for example:
 
 Change one factor while keeping other important conditions fixed.
 
-
 # Confusion Matrix Analysis
 
 Produce one confusion matrix for each model.
 
-Discuss:
+An in your project report explain:
 
 - Which classes are easiest to classify?
 - Which classes are most frequently confused?
